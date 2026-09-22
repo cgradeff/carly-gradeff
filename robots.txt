@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cgradeff.github.io/carly-gradeff/sitemap.xml
