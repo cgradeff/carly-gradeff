@@ -3421,6 +3421,71 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+/* Work Experience */
+
+	.work-entry {
+		margin: 0 0 3em 0;
+		max-width: 65em;
+	}
+
+		.work-entry:last-child {
+			margin-bottom: 0;
+		}
+
+		.work-entry-header {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: baseline;
+			justify-content: space-between;
+			column-gap: 1em;
+		}
+
+			.work-entry-header h3 {
+				margin: 0;
+			}
+
+		.work-dates {
+			opacity: 0.6;
+			font-size: 0.85em;
+			white-space: nowrap;
+		}
+
+		.work-prev-titles {
+			margin: 0.4em 0 0 0;
+			font-size: 0.85em;
+			opacity: 0.65;
+		}
+
+		.work-company {
+			margin: 0.5em 0 1em 0;
+			font-style: italic;
+			opacity: 0.8;
+		}
+
+		.work-entry ul {
+			margin: 0;
+		}
+
+			.work-entry ul li {
+				margin: 0 0 0.65em 0;
+			}
+
+			.work-entry ul li:last-child {
+				margin-bottom: 0;
+			}
+
+		@media screen and (max-width: 736px) {
+
+			.work-entry-header {
+				flex-direction: column;
+			}
+
+			.work-dates {
+				opacity: 0.75;
+			}
+
+		}
+
 /* Header */
 
 	#header {
